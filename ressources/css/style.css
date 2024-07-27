@@ -4,6 +4,20 @@ body {
     font-family: Verdana, sans-serif; /* Add Verdana font */
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; /* Add text alignment */    
+}
+
+video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; /* Add text alignment */
+}
+
 /* Paragraph style */
 p {
     font-size: 16px;
@@ -46,8 +60,15 @@ a {
     font-size: 16px;
     color: aquamarine;
     text-decoration: underline;
+    text-align: center; /* Add text alignment */
 }
 
 a:hover {
     text-decoration: none;
+}
+
+.center-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
