@@ -1,0 +1,53 @@
+/* Default page color */
+body {
+    background-color: black;
+    font-family: Verdana, sans-serif; /* Add Verdana font */
+}
+
+/* Paragraph style */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+    text-align: center; /* Add text alignment */
+}
+
+/* Heading style */
+h1 {
+    font-size: 50px;
+    font-weight: normal;
+    color: white;
+    text-align: center; /* Add text alignment */
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: 300;
+    color: white;
+    text-align: center; /* Add text alignment */    
+}
+
+h3 {
+    font-size: 21px;
+    font-weight: normal;
+    color: grey;
+    text-align: center; /* Add text alignment */
+}
+
+h3.right {
+    font-size: 21px;
+    font-weight: normal;
+    color: grey;
+    text-align: right; /* Add text alignment */
+}
+
+/* Link style */
+a {
+    font-size: 16px;
+    color: aquamarine;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
